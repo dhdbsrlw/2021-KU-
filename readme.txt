@@ -1,16 +1,18 @@
 < 강의실 추천 readme.txt >
 
-1. 강의실 건물별 TOP3.ipynb : 건물당 가장 사용이 적고 넓은 강의실을 최대 3개 추출
-2. 강의실_사용자_데이터.ipynb : 강의실 가상 사용자 생성
-3. 사용자_강의실_점수.ipynb : 강의실 가상 사용자 True label 생성
-4. 강의실 mlp 모델 최종.ipynb : 강의실 mlp 추천 모델
-5. CollaborativeFiltering 강의실.ipynb : 강의실 SVD 이용 CollaborativeFiltering 추천 모델
-6. ContentsFiltering_강의실.ipynb : 강의실 코사인 유사도 이용 ContentFiltering 추천 모델
-7. classroom_model : 강의실 mlp 추천 모델 코드의 학습된 모델 결과 저장
+1. 각_건물별_강의실_3곳_추출.ipynb : 건물당 가장 사용이 적고 넓은 강의실을 최대 3개 추출
+2. 강의실_사용자_가상데이터_생성.ipynb : 강의실 가상 사용자 생성
+3. 강의실_사용자_가상점수_생성.ipynb : 강의실 가상 사용자 True label 생성
+4. MLP_강의실.ipynb(파일) : 강의실 mlp 추천 모델
+5. MLP_강의실(폴더) : 강의실 mlp 추천 모델 코드의 학습된 모델 결과 저장
+6. CollaborativeFiltering_강의실.ipynb : 강의실 SVD 이용 CollaborativeFiltering 추천 모델
+7. ContentsFiltering_강의실.ipynb : 강의실 코사인 유사도 이용 ContentFiltering 추천 모델
 8. events.out.tfevents.1628444437.4ae6496d5d5f : 강의실 mlp 모델 loss 
 9. 이동시간_계산.ipynb : 교내 랜드마크(건물 혹은 명소) 간의 거리 측정 코드
 
-< 라운지 + 혼잡도 readme.txt > 
+
+
+< 라운지 추천 readme.txt > 
 
 1. 라운지_가상데이터 최종.ipynb : 가상 라운지 생성
 2. 라운지_모델_최종.ipynb : 라운지 mlp 추천 모델
@@ -33,18 +35,15 @@
 
 
 
-< 챗봇 실제 적용 모델 readme.txt >
+< 챗봇 readme.txt >
 
 1. classroom_mlp_model.ipynb : 챗봇에 실제 연결시킨 강의실 mlp 추천 코드 
 2. lounge_mlp_model.ipynb : 챗봇에 실제 연결시킨 라운지 mlp 추천 코드
-
-
-
-< 챗봇 readme.txt >
-
 1. ngrok.ipynb : 외부에서 로컬 서버 접속 환경 설정 
 2. Set Database.ipynb : 데이터베이스 설정 파일
 3. webhook.ipynb : 웹훅을 받아서 데이터 처리 및 응답하는 메인 코드
+
+
 
 < 챗봇 실행 방법 >
 1. Flask 서버 실행 (GCP 프로젝트 구성원으로 등록 이후 실행 가능)
