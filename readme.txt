@@ -39,9 +39,10 @@
 
 1. classroom_mlp_model.ipynb : 챗봇에 실제 연결시킨 강의실 mlp 추천 코드 
 2. lounge_mlp_model.ipynb : 챗봇에 실제 연결시킨 라운지 mlp 추천 코드
-1. ngrok.ipynb : 외부에서 로컬 서버 접속 환경 설정 
-2. Set Database.ipynb : 데이터베이스 설정 파일
-3. webhook.ipynb : 웹훅을 받아서 데이터 처리 및 응답하는 메인 코드
+3. set_database.ipynb : 데이터베이스 설정 파일
+4. WebHook.ipynb : 웹훅을 받아서 데이터 처리 및 응답하는 메인 코드
+5. ngrok.ipynb : 외부에서 로컬 서버 접속 환경 설정 
+
 
 
 
