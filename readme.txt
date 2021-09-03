@@ -3,10 +3,10 @@
 1. 각_건물별_강의실_3곳_추출.ipynb : 건물당 가장 사용이 적고 넓은 강의실을 최대 3개 추출
 2. 강의실_사용자_가상데이터_생성.ipynb : 강의실 가상 사용자 생성
 3. 강의실_사용자_가상점수_생성.ipynb : 강의실 가상 사용자 True label 생성
-4. MLP_강의실.ipynb(파일) : 강의실 mlp 추천 모델
-5. MLP_강의실(폴더) : 강의실 mlp 추천 모델 코드의 학습된 모델 결과 저장
-6. CollaborativeFiltering_강의실.ipynb : 강의실 SVD 이용 CollaborativeFiltering 추천 모델
-7. ContentsFiltering_강의실.ipynb : 강의실 코사인 유사도 이용 ContentFiltering 추천 모델
+4. MLP_강의실.ipynb : 강의실 mlp 추천 모델
+5. CollaborativeFiltering_강의실.ipynb : 강의실 SVD 이용 CollaborativeFiltering 추천 모델
+6. ContentsFiltering_강의실.ipynb : 강의실 코사인 유사도 이용 ContentFiltering 추천 모델
+7. MLP_강의실_학습결과 : 강의실 mlp 추천 모델 코드의 학습된 모델 결과 저장
 8. events.out.tfevents.1628444437.4ae6496d5d5f : 강의실 mlp 모델 loss 
 9. 이동시간_계산.ipynb : 교내 랜드마크(건물 혹은 명소) 간의 거리 측정 코드
 
