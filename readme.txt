@@ -6,7 +6,7 @@
 4. MLP_강의실.ipynb : 강의실 mlp 추천 모델
 5. CollaborativeFiltering_강의실.ipynb : 강의실 SVD 이용 CollaborativeFiltering 추천 모델
 6. ContentsFiltering_강의실.ipynb : 강의실 코사인 유사도 이용 ContentFiltering 추천 모델
-7. MLP_강의실_학습결과 : 강의실 mlp 추천 모델 코드의 학습된 모델 결과 저장
+7. MLP_강의실(폴더) : 강의실 mlp 추천 모델 코드의 학습된 모델 결과 저장
 8. events.out.tfevents.1628444437.4ae6496d5d5f : 강의실 mlp 모델 loss 
 9. 이동시간_계산.ipynb : 교내 랜드마크(건물 혹은 명소) 간의 거리 측정 코드
 
@@ -14,11 +14,11 @@
 
 < 라운지 추천 readme.txt > 
 
-1. 라운지_가상데이터 최종.ipynb : 가상 라운지 생성
-2. 라운지_모델_최종.ipynb : 라운지 mlp 추천 모델
-3. 라운지_사용자_데이터 최종.ipynb : 라운지 가상 사용자 생성
-4. 라운지_트루라벨_모델 최종.ipynb : 라운지 가상 사용자 True label 생성
-5. 혼잡도_데이터.ipynb : 혼잡도 생성 
+1. 라운지_환경요인_가상데이터_생성.ipynb : 가상 라운지 생성
+2. 라운지_사용자_가상데이터_생성.ipynb : 라운지 가상 사용자 생성
+3. 라운지_트루라벨_모델.ipynb : 라운지 가상 사용자 True label 생성
+4. 교내_혼잡도_계산.ipynb : 혼잡도 생성 
+5. MLP_라운지.ipynb : 라운지 mlp 추천 모델
 6. CollaborativeFiltering 라운지.ipynb : 라운지 SVD 이용 CollaborativeFiltering 추천 모델
 7. ContentsFiltering_라운지.ipynb : 라운지 코사인 유사도 이용 ContentFiltering 추천 모델
 8. model_0/1/2/3 : 라운지 mlp 추천 모델 코드의 학습된 모델 결과 저장
